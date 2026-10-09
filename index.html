@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Discover, preview, and download modern GitHub profile README templates.">
+  <title>README Studio — GitHub Profile Templates</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="README Studio home"><span class="brand-mark">R</span><span>README<span class="brand-accent">Studio</span></span></a>
+    <nav><a href="#templates">Templates</a><a href="#how-it-works">How it works</a><a href="https://github.com/mdislamair/readme-studio" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
+    <a class="nav-cta" href="#templates">Explore templates <span>→</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="pulse"></span> OPEN-SOURCE TEMPLATE COLLECTION</div>
+      <h1>Your GitHub profile,<br><span class="gradient-text">with a little more personality.</span></h1>
+      <p class="hero-copy">Find a README style that feels like you. Preview the design, download the Markdown, and make it your own.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#templates">Explore templates <span>↓</span></a><a class="button button-secondary" href="https://github.com/mdislamair/readme-studio" target="_blank" rel="noreferrer">View source on GitHub ↗</a></div>
+      <div class="hero-proof"><div class="avatar-stack"><span>✦</span><span>⌘</span><span>✳</span></div><span><strong>Made for your next chapter.</strong> Students, developers, creators, and career changers.</span></div>
+      <div class="hero-window" aria-label="Animated README preview">
+        <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>README.md</span><span class="window-language">Markdown</span></div>
+        <div class="mock-readme">
+          <div class="mock-title">Hey, I'm <span class="typing">building something good<span class="cursor">▋</span></span></div>
+          <div class="mock-line long"></div><div class="mock-line medium"></div>
+          <div class="mock-badges"><b>HTML</b><b>CSS</b><b>JavaScript</b><b>Learning</b></div>
+          <div class="mock-subtitle">A little about me</div><div class="mock-line long"></div><div class="mock-line short"></div>
+          <div class="mock-subtitle">Featured projects</div><div class="mock-projects"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    </section>
+
+    <section class="template-section" id="templates">
+      <div class="section-heading"><div><div class="eyebrow">THE COLLECTION</div><h2>Find your README style.</h2><p>Pick a starting point. Personalize every detail.</p></div><div class="template-count"><strong id="result-count">6</strong><span>templates</span></div></div>
+      <div class="toolbar"><label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Search templates..." aria-label="Search templates"></label><div class="filters" role="group" aria-label="Filter templates"><button class="filter active" data-filter="All">All styles</button><button class="filter" data-filter="Animated">Animated</button><button class="filter" data-filter="Professional">Professional</button><button class="filter" data-filter="Minimal">Minimal</button><button class="filter" data-filter="Creative">Creative</button></div></div>
+      <div class="template-grid" id="template-grid"></div>
+      <p class="no-results" id="no-results" hidden>No templates match that search. Try another keyword.</p>
+    </section>
+
+    <section class="how-section" id="how-it-works"><div class="eyebrow">THREE SIMPLE STEPS</div><h2>From template to <span class="gradient-text">your profile.</span></h2><div class="steps"><article><span class="step-number">01</span><h3>Choose a style</h3><p>Find a layout that fits your work, personality, and goals.</p></article><article><span class="step-number">02</span><h3>Download Markdown</h3><p>Get a ready-to-edit <code>README.md</code> file. No setup needed.</p></article><article><span class="step-number">03</span><h3>Make it yours</h3><p>Replace placeholders, add real projects, and publish it to your profile.</p></article></div></section>
+
+    <section class="callout"><div><div class="eyebrow">OPEN SOURCE · COMMUNITY BUILT</div><h2>Have a style worth sharing?</h2><p>Help make README Studio more useful by contributing an original template.</p></div><a class="button button-light" href="https://github.com/mdislamair/readme-studio/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">How to contribute ↗</a></section>
+  </main>
+  <footer><a class="brand" href="#"><span class="brand-mark">R</span><span>README<span class="brand-accent">Studio</span></span></a><span>Made for people building their next chapter.</span><a href="https://github.com/mdislamair/readme-studio" target="_blank" rel="noreferrer">Star the project on GitHub ↗</a></footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
